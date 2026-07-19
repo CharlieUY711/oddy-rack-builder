@@ -1,0 +1,69 @@
+{
+  "id": "half-standard",
+  "name": "Half Rack — Sucursal 22U",
+  "description": "Plantilla base para gabinete reducido de 22U, orientado a sitios de sucursal.",
+  "manufacturer": "Genérico",
+  "model": "PN_PLACEHOLDER",
+  "rackType": "half",
+  "heightU": 22,
+  "usableU": 20,
+  "observations": "Plantilla de referencia. Pendiente de validar con ingeniería definitiva antes de uso productivo.",
+  "components": [
+    {
+      "id": "cmp-001",
+      "name": "Patch Panel 12 puertos",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 22,
+      "uEnd": 22,
+      "side": "frente",
+      "quantity": 1,
+      "requiresSerial": false,
+      "requiresQA": true,
+      "requiresPhoto": true,
+      "comments": ""
+    },
+    {
+      "id": "cmp-002",
+      "name": "Switch de acceso 24 puertos",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 21,
+      "uEnd": 21,
+      "side": "frente",
+      "quantity": 1,
+      "requiresSerial": true,
+      "requiresQA": true,
+      "requiresPhoto": true,
+      "comments": ""
+    },
+    {
+      "id": "cmp-003",
+      "name": "UPS de sucursal",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 2,
+      "uEnd": 3,
+      "side": "frente",
+      "quantity": 1,
+      "requiresSerial": true,
+      "requiresQA": true,
+      "requiresPhoto": false,
+      "comments": ""
+    },
+    {
+      "id": "cmp-004",
+      "name": "PDU horizontal",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 1,
+      "uEnd": 1,
+      "side": "trasera",
+      "quantity": 1,
+      "requiresSerial": false,
+      "requiresQA": false,
+      "requiresPhoto": false,
+      "comments": ""
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "tipo2-standard",
+  "name": "Rack Tipo 2 — Cómputo 42U",
+  "description": "Plantilla base para gabinete de 42U orientado a servidores de cómputo.",
+  "manufacturer": "Genérico",
+  "model": "PN_PLACEHOLDER",
+  "rackType": "tipo2",
+  "heightU": 42,
+  "usableU": 40,
+  "observations": "Plantilla de referencia. Pendiente de validar con ingeniería definitiva antes de uso productivo.",
+  "components": [
+    {
+      "id": "cmp-001",
+      "name": "Patch Panel 24 puertos",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 42,
+      "uEnd": 42,
+      "side": "frente",
+      "quantity": 1,
+      "requiresSerial": false,
+      "requiresQA": true,
+      "requiresPhoto": true,
+      "comments": ""
+    },
+    {
+      "id": "cmp-002",
+      "name": "Servidor rack 2U",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 40,
+      "uEnd": 41,
+      "side": "frente",
+      "quantity": 3,
+      "requiresSerial": true,
+      "requiresQA": true,
+      "requiresPhoto": true,
+      "comments": "Requiere registro de número de serie por unidad instalada."
+    },
+    {
+      "id": "cmp-003",
+      "name": "Bandeja para UPS",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 4,
+      "uEnd": 6,
+      "side": "frente",
+      "quantity": 1,
+      "requiresSerial": true,
+      "requiresQA": true,
+      "requiresPhoto": false,
+      "comments": ""
+    },
+    {
+      "id": "cmp-004",
+      "name": "PDU vertical",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 1,
+      "uEnd": 42,
+      "side": "trasera",
+      "quantity": 2,
+      "requiresSerial": true,
+      "requiresQA": true,
+      "requiresPhoto": false,
+      "comments": "Una unidad por columna eléctrica (A/B)."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "tipo1-standard",
+  "name": "Rack Tipo 1 — Estándar 45U",
+  "description": "Plantilla base para gabinete de 45U de uso general (networking + patching).",
+  "manufacturer": "Genérico",
+  "model": "PN_PLACEHOLDER",
+  "rackType": "tipo1",
+  "heightU": 45,
+  "usableU": 42,
+  "observations": "Plantilla de referencia. Pendiente de validar con ingeniería definitiva antes de uso productivo.",
+  "components": [
+    {
+      "id": "cmp-001",
+      "name": "Patch Panel 24 puertos",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 45,
+      "uEnd": 45,
+      "side": "frente",
+      "quantity": 1,
+      "requiresSerial": false,
+      "requiresQA": true,
+      "requiresPhoto": true,
+      "comments": "Patching de distribución horizontal."
+    },
+    {
+      "id": "cmp-002",
+      "name": "Organizador de cables horizontal",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 44,
+      "uEnd": 44,
+      "side": "frente",
+      "quantity": 1,
+      "requiresSerial": false,
+      "requiresQA": false,
+      "requiresPhoto": false,
+      "comments": ""
+    },
+    {
+      "id": "cmp-003",
+      "name": "Switch de acceso 48 puertos",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 43,
+      "uEnd": 43,
+      "side": "frente",
+      "quantity": 1,
+      "requiresSerial": true,
+      "requiresQA": true,
+      "requiresPhoto": true,
+      "comments": "Requiere registro de número de serie por trazabilidad."
+    },
+    {
+      "id": "cmp-004",
+      "name": "Bandeja pasacables vertical",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 42,
+      "uEnd": 42,
+      "side": "frente",
+      "quantity": 1,
+      "requiresSerial": false,
+      "requiresQA": false,
+      "requiresPhoto": false,
+      "comments": ""
+    },
+    {
+      "id": "cmp-005",
+      "name": "PDU vertical",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 1,
+      "uEnd": 45,
+      "side": "trasera",
+      "quantity": 2,
+      "requiresSerial": true,
+      "requiresQA": true,
+      "requiresPhoto": false,
+      "comments": "Una unidad por columna eléctrica (A/B)."
+    }
+  ]
+}

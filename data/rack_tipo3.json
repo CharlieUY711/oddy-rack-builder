@@ -1,0 +1,83 @@
+{
+  "id": "tipo3-standard",
+  "name": "Rack Tipo 3 — Telecomunicaciones 47U",
+  "description": "Plantilla base para gabinete de 47U orientado a equipos de telecomunicaciones.",
+  "manufacturer": "Genérico",
+  "model": "PN_PLACEHOLDER",
+  "rackType": "tipo3",
+  "heightU": 47,
+  "usableU": 44,
+  "observations": "Plantilla de referencia. Pendiente de validar con ingeniería definitiva antes de uso productivo.",
+  "components": [
+    {
+      "id": "cmp-001",
+      "name": "ODF (Distribuidor de fibra óptica)",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 47,
+      "uEnd": 47,
+      "side": "frente",
+      "quantity": 1,
+      "requiresSerial": true,
+      "requiresQA": true,
+      "requiresPhoto": true,
+      "comments": ""
+    },
+    {
+      "id": "cmp-002",
+      "name": "Organizador de cables horizontal",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 46,
+      "uEnd": 46,
+      "side": "frente",
+      "quantity": 1,
+      "requiresSerial": false,
+      "requiresQA": false,
+      "requiresPhoto": false,
+      "comments": ""
+    },
+    {
+      "id": "cmp-003",
+      "name": "Equipo de transmisión",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 44,
+      "uEnd": 45,
+      "side": "frente",
+      "quantity": 1,
+      "requiresSerial": true,
+      "requiresQA": true,
+      "requiresPhoto": true,
+      "comments": "Requiere registro de número de serie y fotografía de instalación."
+    },
+    {
+      "id": "cmp-004",
+      "name": "Router de borde",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 42,
+      "uEnd": 43,
+      "side": "frente",
+      "quantity": 1,
+      "requiresSerial": true,
+      "requiresQA": true,
+      "requiresPhoto": true,
+      "comments": ""
+    },
+    {
+      "id": "cmp-005",
+      "name": "PDU vertical",
+      "manufacturer": "Genérico",
+      "partNumber": "PN_PLACEHOLDER",
+      "uStart": 1,
+      "uEnd": 47,
+      "side": "trasera",
+      "quantity": 2,
+      "requiresSerial": true,
+      "requiresQA": true,
+      "requiresPhoto": false,
+      "comments": "Una unidad por columna eléctrica (A/B)."
+    }
+  ]
+}

@@ -4,7 +4,7 @@ export default function SettingsPage() {
   return (
     <>
       <PageHeader
-        unit="U06"
+        unit="U07"
         title="Configuración"
         description="Preferencias generales del proyecto. Módulo pendiente de implementación."
       />

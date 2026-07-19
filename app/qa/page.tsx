@@ -4,7 +4,7 @@ export default function QAPage() {
   return (
     <>
       <PageHeader
-        unit="U04"
+        unit="U05"
         title="QA"
         description="Control de calidad y checklist de armado. Módulo pendiente de implementación."
       />

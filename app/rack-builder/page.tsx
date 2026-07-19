@@ -4,7 +4,7 @@ export default function RackBuilderPage() {
   return (
     <>
       <PageHeader
-        unit="U03"
+        unit="U04"
         title="Rack Builder"
         description="Armado visual de racks. Módulo pendiente de implementación."
       />

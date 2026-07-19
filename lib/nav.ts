@@ -18,8 +18,9 @@ export interface NavItem {
 export const NAV_ITEMS: NavItem[] = [
   { unit: "U01", label: "Dashboard", href: "/dashboard" },
   { unit: "U02", label: "Proyectos", href: "/projects" },
-  { unit: "U03", label: "Rack Builder", href: "/rack-builder" },
-  { unit: "U04", label: "QA", href: "/qa" },
-  { unit: "U05", label: "Reportes", href: "/reports" },
-  { unit: "U06", label: "Configuración", href: "/settings" },
+  { unit: "U03", label: "Rack Templates", href: "/rack-templates" },
+  { unit: "U04", label: "Rack Builder", href: "/rack-builder" },
+  { unit: "U05", label: "QA", href: "/qa" },
+  { unit: "U06", label: "Reportes", href: "/reports" },
+  { unit: "U07", label: "Configuración", href: "/settings" },
 ];

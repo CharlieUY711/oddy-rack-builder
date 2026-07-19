@@ -4,7 +4,7 @@ export default function ReportsPage() {
   return (
     <>
       <PageHeader
-        unit="U05"
+        unit="U06"
         title="Reportes"
         description="Reportes de producción y trazabilidad. Módulo pendiente de implementación."
       />
