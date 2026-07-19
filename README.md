@@ -12,9 +12,13 @@ armado físico hasta su control de calidad y documentación—, sentando una bas
 escalable para futuras funcionalidades de inventario, producción, QA,
 etiquetado, reportes, gestión documental, pedidos y logística.
 
-> **Estado actual: Sprint 0 — Inicialización del proyecto.**
-> Esta etapa contiene únicamente la arquitectura base del proyecto. No hay
-> lógica de negocio, pantallas, componentes ni modelos de datos implementados.
+> **Estado actual: Sprint 1 — Foundation (cerrado).**
+> Ya existe el shell visual completo (Sidebar, TopBar, Main, Footer), un
+> sistema de navegación con páginas placeholder por módulo, y un sistema de
+> diseño con 8 componentes reutilizables. Todavía no hay lógica de negocio,
+> modelo de datos ni conexión a Supabase — ver
+> [`docs/010-sprint1-review.md`](./docs/010-sprint1-review.md) para el
+> detalle completo del sprint.
 
 ## Stack
 
@@ -94,8 +98,9 @@ Builder/
 
 | Sprint | Alcance |
 |--------|---------|
-| Sprint 0 | Inicialización del proyecto: arquitectura, estructura de carpetas, configuración base. |
-| Sprint 1+ | Modelo de datos, pantallas, componentes, lógica de negocio (a definir). |
+| Sprint 0 | Inicialización del proyecto: arquitectura, estructura de carpetas, configuración base. ✅ |
+| Sprint 1 | Foundation: shell visual (Sidebar/TopBar/Main/Footer), navegación con páginas placeholder, sistema de componentes y tema visual. ✅ |
+| Sprint 2+ | Modelo de datos, conexión a Supabase, lógica de negocio (a definir). |
 | Futuro | Inventario, Producción, QA, Etiquetado, Reportes, Gestión documental, Pedidos, Logística. |
 
 Ver el detalle en [`docs/006-roadmap.md`](./docs/006-roadmap.md).

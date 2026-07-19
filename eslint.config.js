@@ -1,11 +1,19 @@
-// Sprint 0: configuracion minima de ESLint.
-// No se agregan reglas de negocio ni overrides especificos aun.
-import js from "@eslint/js";
+// Sprint 1: configuracion de ESLint usando flat config nativo.
+// Next.js 16 elimino "next lint"; ESLint se ejecuta directo via "eslint .".
+// eslint-config-next expone sus presets ya adaptados a flat config
+// (no se requiere FlatCompat en esta version).
+import { defineConfig, globalIgnores } from "eslint/config";
+import nextVitals from "eslint-config-next/core-web-vitals";
+import nextTypescript from "eslint-config-next/typescript";
 
-/** @type {import('eslint').Linter.Config[]} */
-export default [
-  js.configs.recommended,
-  {
-    ignores: [".next/**", "node_modules/**", "out/**", "build/**"],
-  },
-];
+export default defineConfig([
+  ...nextVitals,
+  ...nextTypescript,
+  globalIgnores([
+    ".next/**",
+    "out/**",
+    "build/**",
+    "next-env.d.ts",
+    "node_modules/**",
+  ]),
+]);
