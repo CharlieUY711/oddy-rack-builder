@@ -44,3 +44,9 @@ supabase/.branches/
 
 # Testing
 coverage/
+# Build artifacts
+*.zip
+artifacts/
+deliverables/
+*.bak
+*.tmp
