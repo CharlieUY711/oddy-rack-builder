@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 900" width="260" height="900">
-  <!-- Vista Frontal: marco de referencia generico, 45U. -->
+  <!-- Vista Trasera: marco de referencia generico, 45U. -->
   <!-- Sin componentes hardcodeados: cada fila es solo un slot U vacio. -->
   <!-- El Rack Builder renderiza el contenido real dinamicamente (ver -->
   <!-- features/rack-builder/RackElevationView.tsx), a partir de la -->

@@ -12,13 +12,14 @@ armado físico hasta su control de calidad y documentación—, sentando una bas
 escalable para futuras funcionalidades de inventario, producción, QA,
 etiquetado, reportes, gestión documental, pedidos y logística.
 
-> **Estado actual: Sprint 2 — Rack Templates (cerrado).**
-> Ya existe el motor de Plantillas de Rack: modelo de datos (`RackTemplate`,
-> `RackTemplateComponent`), un Repository Pattern con implementación
-> temporal en JSON, y las pantallas de listado, detalle y creación. Todavía
-> no hay Rack Builder, QA, Inventario ni conexión a Supabase — ver
-> [`docs/011-rack-template-spec.md`](./docs/011-rack-template-spec.md) para
-> el detalle completo del sprint.
+> **Estado actual: Sprint 3 — Rack Assembly Engine (cerrado).**
+> Ya existe el motor de ensamblado: `RackInstance` generada desde una
+> `RackTemplate`, checklist automático, vista frontal/trasera renderizada
+> dinámicamente en SVG, y registro de PN leído/Serial Number/Observaciones
+> con progreso calculado en vivo. Todavía no hay QA, Inventario, Etiquetas
+> ni conexión a Supabase — ver
+> [`docs/012-rack-assembly-engine.md`](./docs/012-rack-assembly-engine.md)
+> para el detalle completo del sprint.
 
 ## Stack
 
@@ -101,7 +102,8 @@ Builder/
 | Sprint 0 | Inicialización del proyecto: arquitectura, estructura de carpetas, configuración base. ✅ |
 | Sprint 1 | Foundation: shell visual (Sidebar/TopBar/Main/Footer), navegación con páginas placeholder, sistema de componentes y tema visual. ✅ |
 | Sprint 2 | Rack Templates: modelo de datos, Repository Pattern (JSON), pantallas de listado/detalle/creación de plantillas. ✅ |
-| Sprint 3+ | Rack Builder, conexión a Supabase, lógica de negocio (a definir). |
+| Sprint 3 | Rack Assembly Engine: RackInstance, checklist automático, vista SVG dinámica, registro de PN/Serial y progreso. ✅ |
+| Sprint 4+ | QA, Inventario, Etiquetas, conexión a Supabase (a definir). |
 | Futuro | Inventario, Producción, QA, Etiquetado, Reportes, Gestión documental, Pedidos, Logística. |
 
 Ver el detalle en [`docs/006-roadmap.md`](./docs/006-roadmap.md).
